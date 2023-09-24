@@ -1,0 +1,7 @@
+defaults:
+  dataset: lambdalabs/pokemon-blip-captions
+  processor: openai/clip-vit-base-patch32
+  tokenize_batch_size: 16
+  num_proc: 8
+  save_dir: /path/to/save/directory
+
